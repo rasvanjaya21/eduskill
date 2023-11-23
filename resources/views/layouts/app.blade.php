@@ -13,7 +13,8 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
     <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <!-- @vite(['resources/css/app.css', 'resources/js/app.js']) -->
+
     <!--- Tambahkan setelah app.js --->
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -252,6 +253,9 @@
             /*bg-indigo-500*/
         }
     </style>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
     @livewireStyles
 </head>

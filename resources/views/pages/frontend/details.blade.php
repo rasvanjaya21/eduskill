@@ -8,7 +8,10 @@
     <title>EduMim Html Template</title>
     <link rel="icon" type="image/png" href="/frontend/images/logo/favicon.svg">
     <link rel="stylesheet" href="{{ url('/frontend/css/rt-plugins.css') }}">
-    <link rel="stylesheet" href="{{ url('/frontend/css/app.css') }}">
+    <!-- <link rel="stylesheet" href="{{ url('/frontend/css/app.css') }}"> -->
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class=" font-gilroy font-medium text-gray text-lg leading-[27px]">

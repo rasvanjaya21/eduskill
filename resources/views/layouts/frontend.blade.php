@@ -16,11 +16,14 @@
     <link rel="manifest" href="site.webmanifest" />
     <!-- Place favicon.ico in the root directory -->
 
-    <link rel="stylesheet" href="{{ url('/frontend/css/app.css') }}" />
+    <!-- <link rel="stylesheet" href="{{ url('/frontend/css/app.css') }}" /> -->
     <link rel="stylesheet" href="{{ url('/frontend/css/rt-plugins.css') }}">
     <link rel="icon" type="image/svg+xml" href="{{ url('/frontend/ico_eduskill.ico') }}" />
-
+    
     <meta name="theme-color" content="#000" />
+    
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 
